@@ -1,16 +1,27 @@
-# React + Vite
+# 🎬 Movie Search App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive movie search application built with **React** and **Tailwind CSS**.  
+Search for movies, view details, and enjoy a clean, user-friendly interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Technologies Used
 
-## React Compiler
+- **React** - Functional components, `useState`, `useEffect`, props
+- **Tailwind CSS v4** - Utility-first CSS framework for styling
+- **OMDb API** - Fetch movie data
+- **Vite** - Fast development build tool
+- **JavaScript (ES6)** - Fetch API, async/await, array methods
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ⚡ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search movies by title
+- View movie details in a modal
+- Responsive design using Tailwind CSS
+- Hover effects and visual feedback for user interactions
+- Loading indicator while fetching data
+
+---
+
