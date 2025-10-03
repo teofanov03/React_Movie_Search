@@ -30,7 +30,7 @@ export default function MovieModal({ movie, onClose }) {
         </div>
 
         <div className="flex justify-end mt-4">
-          <button onClick={onClose} className="bg-gray-200 px-3 py-1 rounded hover:bg-gray-300">Close</button>
+          <button onClick={onClose} className="bg-gray-200 px-3 py-1 rounded hover:bg-gray-300 cursor-pointer">Close</button>
         </div>
       </div>
     </div>
